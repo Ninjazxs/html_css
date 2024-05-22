@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site me vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <br>
+    <p>é importante organizar a ordem das imagens, já que a que nesse caso, a menor imagem ficou na primeira linha</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/imagemPequena.png" type="image/png" class="images">
+        <source media="(max-width:1050px )" srcset="imagens/imagemMedia.png" type="image/png" class="images">
+        <img src="imagens/imagemGrande.png" alt="imagem flexível" class="images">
+
+        <h1>Reproduzindo audios</h1>
+        <p>Vamos aprender como reproduzir audios com HTML5.</p>
+        <audio src="midia/happy-mistake.mp3" controls class="sound"></audio>
+    </picture>
+</body>
+</html>

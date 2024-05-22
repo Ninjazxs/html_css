@@ -1,0 +1,11 @@
+.div{
+    border: 1px solid;
+    margin-top: 3%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: bisque
+}
+
+#color{
+    background-color: aquamarine;
+}

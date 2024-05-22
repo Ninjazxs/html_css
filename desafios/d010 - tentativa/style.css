@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+header {
+    /*height: 210px;*/
+    background-image: linear-gradient(to bottom, #3cd782, #174f31);
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 1%;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+header > div {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.barrdec:hover {
+    border-radius: 10px;
+    background-color: rgb(97, 199, 97);
+}
+
+.barr {
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 4px;
+}
+
+
+/*Parte do Main*/
+
+
+main {
+    /*font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1500px;
+    margin: 0%;
+    background-color: #84E1AD;*/
+}
+
+body {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1500px;
+    margin: 0%;
+    background-color: #84E1AD;
+}
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/IDroid.otf);
+}
+
+main > div {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;
+}
+
+.div1 {
+    background-color:white ;
+    margin-bottom: 0;
+}
+
+.h1droid {
+    color: #195C37 ;
+    margin-top: 0;
+    font-family: 'android';
+}
+
+.worksgrif {
+    color: #55866B;
+    text-decoration: none;
+}
+
+
+.indent {
+    text-indent: 2%
+}
+
+
+
+.h2dec{
+    color: #195C37;
+    background-image: linear-gradient(to right,#c5ebd5, white );
+    font-family: 'android';
+    text-indent: 1%;
+}
+
+.image {
+    text-align: center;
+    display: block;
+}
+
+
+/*Div do video*/
+
+
+
+
+.div2 {
+   
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+
+.video {
+    padding: 1% 20% 1% 20%;
+    background-color: #174f31;
+
+}
+
+/*Inicio do terceiro bloco do site*/
+
+
+.div3 {
+    margin: 0 15% 0 15%;
+    background-color: white;
+}
+
+.divsep{
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    background-color: white;
+}
+
+#h3 {
+    color: white;
+    background-color: #174f31;
+    margin: 0;
+    border: 15px 15px 0 15px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1% 1% 0 1%;
+
+}
+
+.content {
+    margin-top: 0;
+    background-color: #C5EBD6;
+    border: 0 15px 15px 15px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1% 1% 0 1%;
+}
+
+.versionsSide {
+    text-indent: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.dec {
+    text-decoration: underline;
+}
+
+.version_left {
+    display: flex;
+    flex-direction: column;
+}
+
+aside > li {
+    columns: 2;
+}

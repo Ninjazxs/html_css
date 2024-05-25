@@ -3,5 +3,5 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://nijazxs.github.io/estudohtml-css/desafios/d010/">Executar o desafio 10</a>
+<a href="https://Nijazxs.github.io/estudohtml-css/desafios/d010/">Executar o desafio 10</a>
 

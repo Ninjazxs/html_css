@@ -3,5 +3,5 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://Nijazxs.github.io/estudo html-css/html-css/execicíos/ex001/index.html">Executar o desafio 10</a>
+<a href="https://ninjazxs.github.io/html_css/desafios/d09/">Executar o desafio 9</a>
 
